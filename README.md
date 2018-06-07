@@ -1,0 +1,1 @@
+This is a webpage showing bootstrap 4 features. The website uses Avengers theme to display content like  cards, flexbox, carousel, accordion, tabs, etc. This website showcases some beautiful pictures from The Avengers movie series along with its prominent characters. Random generated content is added at some places to fill up the web page. 

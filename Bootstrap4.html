@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Avengers</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="keywords" content="Avengers, Tutorials, online">
+	<meta name="author" content="Vikram Hanji">
+	<meta name="description" content="This is Avengers">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- <link href="bootstrap/css-old/bootstrap.min.css" rel="stylesheet"> -->
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/bootstrap-style.css" rel="stylesheet">
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- GOOGLE   FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Arima Madurai' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Averia Gruesa Libre' rel='stylesheet'>
+
+
+	<script src="includes/js/script.js"> </script>
+
+	<!-- Media query CSS--> 
+	<!-- <link href="includes/css/media-query-template.css" rel="stylesheet"> -->
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+	<!--.................................. NAVIGATION BAR............................................... -->
+
+	<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+		
+		<div class="container">
+			<img class="logo mr-5" src="images/avengers-logo.png" alt="avengers-logo">
+			<!-- <a class="navbar-brand mr-5" href="#">AVENGERS</a> -->
+			
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="">Home</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="">About</a></li>
+
+					<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Heroes</a>
+						<div class="dropdown-menu">
+
+							<a href="#" class="dropdown-item">Dr Banner</a>
+							<a href="#" class="dropdown-item">Hawkeye</a><hr>
+							<a href="#" class="dropdown-item text-muted"><small>New recruits</small></a>
+							<a href="#" class="dropdown-item">The Enhanced</a>
+							<a href="#" class="dropdown-item">Scarlet</a>
+						</div>
+					</li>
+
+					<li class="nav-item"><a class="nav-link" href="">Others</a></li>
+				</ul>
+
+				<form class="form-inline my-2 my-lg-0">
+					<input type="text" class="form-control mr-sm-2" placeholder="Find Avenger...">
+					<button class="btn btn-outline-info my-2 my-sm-0">Search</button>
+				</form>
+
+			</div>
+		</div>
+	</nav>	
+
+	<!-- ...................CAROUSEL SLIDER.................................................................. -->
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-sm-12 m-auto mt-5">
+
+				<main id="slider" class="carousel slide" data-ride="carousel">
+
+					<ol class="carousel-indicators">
+						<li class="active" data-target="#slider" data-slide-to="0"></li>
+						<li class="active" data-target="#slider" data-slide-to="1"></li>
+						<li class="active" data-target="#slider" data-slide-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner" role="listbox">
+
+						<div class="carousel-item active">
+							<img class="d-block img-fluid" src="images/carousel-image-1.jpg" alt="first slide">
+							<div class="carousel-caption mt-5">
+								<h3>Age of Ultron</h3>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore.</p>
+							</div>
+						</div>
+
+						<div class="carousel-item">
+							<img class="d-block img-fluid" src="images/carousel-image-1.jpg" alt="first slide">
+							<div class="carousel-caption">
+								<h3>Infinity War</h3>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore.</p>
+							</div>
+						</div>
+
+						<div class="carousel-item">
+							<img class="d-block img-fluid" src="images/carousel-image-1.jpg" alt="first slide">
+							<div class="carousel-caption">
+								<h3>Captain Marvel</h3>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore.</p>
+							</div>
+						</div>
+
+						<a href="#slider" class="carousel-control-prev" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a href="#slider" class="carousel-control-next" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+
+					</div>
+
+				</main>
+			</div>
+		</div>
+	</div>
+
+	<!-- .........................CARD.................................. -->
+
+	<div class="container">
+		<div class="row">
+
+			<div class="card bg-light my-5">
+				<div class="card-header">
+					Avenger Heading
+				</div>
+				<div class="card-body">
+					<h4 class="card-title">Intro to Avengers Series</h4>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minbd ahgg yweyb wegry qhafvci</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- CARD GROUP -->
+	<div class="container">
+		<div class="row">
+
+			<button class="btn btn-lg btn-block btn-outline-info my-2 my-sm-0">First Avengers Cards</button>
+			<div class="card-deck">
+
+				<div class="card text-white bg-dark m-3 text-center">
+					<div class="card-header">Avenger One</div>
+					<div class="card-body">
+						<h4 class="card-title">Captain America</h4>
+						<img class="mb-4" src="images/captain-america.jpg" alt="captain-america">
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+					</div>
+					<div class="card-footer text-muted">Special power: Sheild</div>
+				</div>
+
+				<div class="card text-white bg-dark m-3 text-center">
+					<div class="card-header">Kill Machine</div>
+					<div class="card-body">
+						<h4 class="card-title">Iron Man</h4>
+						<img class="mb-4" src="images/iron-man.jpg" alt="iron-man">
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+					</div>
+					<div class="card-footer text-muted">Special power: Himself</div>
+				</div>
+
+				<div class="card text-white bg-dark m-3 text-center">
+					<div class="card-header">God man</div>
+					<div class="card-body">
+						<h4 class="card-title">Thor</h4>
+						<img class="mb-4" src="images/thor.jpg" alt="iron-man">
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+					</div>
+					<div class="card-footer text-muted">Special power: Hammer</div>
+				</div>
+
+				<div class="card text-white bg-dark m-3 text-center">
+					<div class="card-header">Beast</div>
+					<div class="card-body">
+						<h4 class="card-title">Hulk</h4>
+						<img class="mb-4" src="images/hulk.jpg" alt="hulk">
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+					</div>
+					<div class="card-footer text-muted">Special power: Muscle</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- .................Image overlay..................... -->
+	<div class="jumbotron text-center mt-5">
+		<h1>Heroes Image Overlay</h1>
+		<p>Display of Avengers Hero image using jumbotron class from Bootstrap. Lorem ipsum dolor sit amet
+		lorem consectetur adipisicing elit, sed do eiusmo. Display of Avengers Hero image using jumbotron class from Bootstrap.</p>
+	</div>
+
+	<figure class="container">
+		<div class="card bg-dark text-white">
+			<img src="images/avengers.jpg" class="card-img">
+
+			<div class="card-img-overlay">
+				<h4 class="">
+					Avengers Assemble !
+				</h4>
+				<p class="">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				</p>
+			</div>
+		</div>
+	</figure>
+
+
+
+	<!-- ....................TABBABLE CONTENT................ -->
+
+	<div class="card text-center my-5 text-light bg-dark py-3 flexsection"><h1>Flex Section</h1></div>
+	<div class="container">
+		<article class="row d-flex" id="moreInfo">              <!--dynamic articles -->
+			<div class="col-sm-6">
+
+				<h3>Neat tabbable content</h3>
+				<div class="tabbable">
+
+					<ul class="nav nav-tabs">
+						<li class="active mr-3"><a href="#tab1" data-toggle="tab">Location </a></li>
+						<li><a href="#tab2" data-toggle="tab"> Timings</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">     <!-- first tab -->
+
+							<h4><span class="glyphicon glyphicon-map-marker"></span> Our location<small class="text-muted"> More like our favourite surf spot </small></h4>
+
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.6685323704394!2d74.78659696877004!3d13.014194530236553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x54864ac075c3459e!2sNITK+Surathkal+Beach!5e0!3m2!1sen!2sin!4v1528171565545" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+							</p>
+						</div><!-- end tab-pane -->
+
+						<div class="tab-pane" id="tab2">      <!-- second tab -->
+							<h4>Timings and Other information <small class="text-muted"> For all courses</small></h4>
+
+							<img src="images/StayLonger.png" alt="" class="thumbnail pull-left">
+
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+							</p>
+							<hr>
+
+
+
+							<div class="container">  <!-- modal -->
+								<button class="btn btn-warning mb-4" data-toggle="modal" data-target="#mymodal"> Sign Up </button>
+
+								<div class="modal" id="mymodal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5> Sign Up for FREE</h5>
+												<button class="close" data-dismiss="modal">&times;</button>
+											</div>
+											<div class="modal-body">
+
+												<img class="col-sm-12" src="images/tutorial.png"><br>
+
+												<form class="form-horizontal">
+													<div class="form-group">
+														<div class="col-sm-2"><label class="control-label" for="Name">Name</label></div>
+														<div class="col-sm-10">
+															<input type="text" placeholder="Enter Name" class="form-control">
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="col-sm-2"><label class="control-label" for="email">Email</label></div>
+														<div class="col-sm-10">
+															<input type="text" placeholder="Your email" class="form-control">
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="col-sm-2"><label class="control-label" for="email">Email<label for="Message">Message</label></div>
+														<div class="col-sm-10"><textarea type="text" placeholder="Message..." class="form-control">
+														</textarea></div>
+													</div>
+												</form> 
+												<hr>
+												<p class="mr-3"> <small class="text-muted">PS. This form doesnt do anything</small></p>
+											</div>
+
+											<div class="modal-footer">
+												<button class="btn btn-success" data-dismiss="modal">Submit</button>
+												<button class="btn btn-danger" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>  <!-- end modal -->
+
+
+
+						</div><!-- end tab-pane -->
+					</div><!-- end tab-content -->
+
+				</div><!-- end tabbable -->
+
+			</div><!-- end col-sm-6 -->
+
+			<div class="col-sm-6"> <!-- Another article to the right -->
+
+				<button class="btn btn-primary d-block mb-4" data-toggle="collapse" data-target="#collapse-btn-1">
+					Read More
+				</button> 
+
+				<div class="collapse mb-5" id="collapse-btn-1">
+					<div class="card">
+						<div class="card-body">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+						</div>
+					</div>
+				</div>  
+
+
+				<div id="accordion" role="tablist">
+
+					<div class="card">
+						<div class="card-header bg-warning" role="tab" id="heading">
+							<h5 class="mb-0">
+								<a href="#collapse1" data-parent="accordion" data-toggle="collapse">Cap. America: Winter Soldier</a>
+							</h5>
+						</div>
+
+						<div id="collapse1" class="collapse show">
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+						</div>
+
+					</div><!-- end card -->
+
+					<div class="card">
+						<div class="card-header bg-warning" role="tab" id="heading">
+							<h5 class="mb-0">
+								<a href="#collapse2" data-parent="accordion" data-toggle="collapse">Thor: Ragnorok</a>
+							</h5>
+						</div>
+
+						<div id="collapse2" class="collapse">
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+						</div>
+
+					</div><!-- end card -->
+
+					<div class="card">
+						<div class="card-header bg-warning" role="tab" id="heading">
+							<h5 class="mb-0">
+								<a href="#collapse3" data-parent="accordion" data-toggle="collapse">Avengers: Infinity War</a>
+							</h5>
+						</div>
+
+						<div id="collapse3" class="collapse">
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+						</div>
+
+					</div><!-- end card -->
+
+
+				</div> <!-- end accordion -->
+
+
+
+
+			</div>	<!-- end col-sm-6 -->
+		</article>	
+	</div>	
+
+	<!-- ,,,,,,,,,,,,,,,,,,ACCORDION,,,,,,,,,,,,,,,,,,,,,,,,, -->
+
+
+	<footer>                  <!-- Contact us-footer -->
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-2">
+					<h6>Copyright &copy; 2018 MyCourse</h6>
+				</div><!-- end col-sm-2 -->
+				<div class="col-sm-4">
+					<h6>About Us</h6>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div> <!-- end col-sm-4 -->
+				<div class="col-sm-2">
+					<div class="foot-nav"><h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="">Home</a></li>
+							<li><a href="">Services</a></li>
+							<li><a href="">Links</a></li>
+							<li><a href="">Contact</a></li>
+						</ul></div>
+					</div><!-- end col-sm-2 -->
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled1">
+							<li><a href=""><i class="fa fa-twitter"></i></a></li>
+							<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					<div class="col-sm-2">
+						<h6>Made with <span class="glyphicon glyphicon-heart"></span> by Vikram</h6>
+					</div><!-- end col-sm-2 -->
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+		</footer>
+
+
+
+
+
+
+		<!-- First try for the online version of jQuery-->
+		<script src="http://code.jquery.com/jquery.js"></script>
+
+		<!-- If no online access, fallback to our hardcoded version of jQuery -->
+		<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+		<!-- Bootstrap JS -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Custom JS -->
+		<script src="includes/js/script.js"></script>
+	</body>
+	</html>
